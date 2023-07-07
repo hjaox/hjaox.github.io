@@ -1,0 +1,48 @@
+:root {
+  --bg-color: rgb(20, 20, 20);
+  display: block;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+:root:before {
+  background: radial-gradient(500px circle at 100px 100px, rgba(225, 225, 225, .4), transparent 50%);
+  z-index: 10;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+.contents {
+  display: flex;  
+}
+
+.left {
+  color: white;
+  border: solid;
+  border-color: white;
+  width: 50%;
+  max-height: 100vh;
+  position: sticky; top: 0px;
+}
+
+.right {
+  color: white;
+  border: solid;
+  border-color: white;
+  width: 50%; 
+}
+
+.content {
+  border: solid;
+  border-color: white;
+  height: 300px;
+  border-radius: 10px;
+}
