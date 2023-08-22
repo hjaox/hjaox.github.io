@@ -1,23 +1,24 @@
-:root {
-  --bg-color: rgb(20, 20, 20);
-  display: block;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: rgb(20, 20, 20);
   margin: 0px;
   padding-left: 6rem;
   padding-right: 6rem;
 }
 
-:root:before {
+.pointer {
   background: radial-gradient(500px circle at 100px 100px, rgba(225, 225, 225, .4), transparent 50%);
-  z-index: 10;
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-
+  left: 0px;
+  top: 0px;
 }
 
 .contents {
