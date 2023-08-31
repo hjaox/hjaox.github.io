@@ -8,8 +8,8 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <main>
-        <div class="flashlight">test</div>
+    <div id="flashlight"></div>
+    <main id="main">
         <section class="section-left">
             <div class="container-left top-left">
                 <div id="short-description" >
@@ -21,13 +21,22 @@
                 <nav>
                     <ul class="list-nav">
                         <li>
-                            <a href="#about">ABOUT</a>
+                            <a class="list-nav-a nav-about" href="#about">
+                                <span id="list-bullet-about" class="list-nav-a-bullet"></span>
+                                <span class="list-nav-a-text">ABOUT</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="#projects">PROJECTS</a>
+                            <a class="list-nav-a nav-projects" href="#projects">
+                                <span id="list-bullet-projects"  class="list-nav-a-bullet"></span>
+                                <span class="list-nav-a-text">PROJECTS</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="#experience">EXPERIENCE</a>
+                            <a class="list-nav-a nav-experience" href="#experience">
+                                <span id="list-bullet-experience" class="list-nav-a-bullet"></span>
+                                <span class="list-nav-a-text">EXPERIENCE</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
