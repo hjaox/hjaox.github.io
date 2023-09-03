@@ -17,6 +17,7 @@ main {
   scroll-behavior: smooth;
   background-color: #0D1821;
   color: #E2E8F0;
+  line-height: 1.3;
 }
 
 section {
@@ -83,17 +84,19 @@ ol.project-items:hover .project-item:hover {
   opacity: 1;
 }
 
-.skills-list-languages-item,
-.skills-list-libraries-frameworks-item {
+.skills-list-languages-item a,
+.skills-list-libraries-frameworks-item a{
   font-size: 11px;
   opacity: 0.7;
   transition: 0.5s;
   background-color: rgba(225,225,225,.2);
+  color: white;
+  text-decoration: none;
 }
 
 
-.skills-list-languages-item:hover,
-.skills-list-libraries-frameworks-item:hover {
+.skills-list-languages-item a:hover,
+.skills-list-libraries-frameworks-item a:hover {
   opacity: 1;
   transition: 0.5s;
   color: black;
@@ -183,6 +186,19 @@ ol.project-items:hover .project-item:hover {
   transition: .3s;
 }
 
+/*----------------------------right section----------------------*/
+
+.section-right {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+#about  .text-2 {
+  margin-top: 10px;
+}
+
 .skills-list,
 .skills-list-list {
   list-style: none;
@@ -211,28 +227,15 @@ ol.project-items:hover .project-item:hover {
   margin-top: 3px;
 }
 
-.skills-list-languages-item,
-.skills-list-libraries-frameworks-item {
+.skills-list-languages-item a,
+.skills-list-libraries-frameworks-item a {
   white-space: nowrap;
   border-radius: 20px;
   padding: 3px 10px;
 }
 
-#skills-list-html p:hover {
-  opacity: 1;
-}
-
 #socials a {
   text-decoration: none;
-}
-
-/*----------------------------right section----------------------*/
-
-.section-right {
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
 }
 
 #projects {
@@ -259,7 +262,7 @@ section.section-experience {
 
 .project-img {
   width: 100%;
-  height: auto;
+  height: 100px;
   border-radius: 10px;
 }
 
