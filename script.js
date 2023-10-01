@@ -19,6 +19,17 @@ const htmlTest = document.getElementById('skills-list-html')
 eleTopListen();
 handleNavOpacity();
 
+for (const projectItem of document.querySelectorAll(".project-item")) {
+  projectItem.addEventListener('mouseover', event => {
+    val = projectItem.children[0].src
+    projectItem.children[0].src = val.split('.').slice(0,-1).join('.') + '.gif'
+  })
+  projectItem.addEventListener('mouseout', event => {
+    val = projectItem.children[0].src
+    projectItem.children[0].src = val.split('.').slice(0,-1).join('.') + '.png'
+  })
+}
+
 for (const bullet of document.querySelectorAll(".list-nav-a")) {
   bullet.addEventListener("mouseover", (event) => handleBulletMouseOverEvent(bullet));
   bullet.addEventListener("mouseout", () => eleTopListen());
