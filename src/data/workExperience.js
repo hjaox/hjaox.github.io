@@ -41,8 +41,8 @@ export const workExperience = {
     'Execute all other tasks which are assigned by the manager/ shift leader']
     },
     'Northcoders': {
-        role: '',
-        location: '',
+        role: 'Junior Full Stack Software Developer',
+        location: null,
         date: '',
         info: ['During the 13-week Bootcamp where I learned the fundamentals of Full-Stack Development, I acquired the fundamentals of JavaScript which helped me in creating a back-end service to provide data for a front-end architecture that I have built. \n\n All throughout the process, I aimed to build clean testable codes by following Test Driven Development process with agile methodologies while both working solo or working with colleagues through pair-programming or in group projects']
     },
