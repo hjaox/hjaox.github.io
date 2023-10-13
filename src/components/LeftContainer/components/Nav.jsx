@@ -3,9 +3,9 @@ export default function Nav() {
     return (
         <ol>
             {
-                navBar.map(item => {
+                navBar.map((item, i) => {
                     return (
-                        <li>
+                        <li key={i}>
                             {item}
                         </li>
                     );

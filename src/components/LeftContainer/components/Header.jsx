@@ -1,5 +1,3 @@
-import { shortDescription } from "../../../data/personalDetails";
-
 export default function Header() {
     return (
         <header>
