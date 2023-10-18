@@ -16,7 +16,7 @@ export const projects = {
     shortVid: "",
   },
   "Swim Wild": {
-    info: "A social platform for a trend of wild swimming. The app provides a blend of user-generated and web scrapped content to inform users about nearby swimming spots that features safety consideration. Users can share their swimming experience with others, use statistics about their swimming history and learn more about their favourite spots via our API network and analysis of user content. \n\n This app was a group project consisting of 6 people during our time with Northcoders",
+    info: "A social platform for a trend of wild swimming. The app provides a blend of user-generated and web scrapped content to inform users about nearby swimming spots that features safety consideration. Users can share their swimming experience with others, use statistics about their swimming history and learn more about their favourite spots via our API network and analysis of user content.This app was a group project consisting of 6 people during our time with Northcoders",
     tech: ["React-Native", "Node.js", "MongoDB", "Firebase", "Jest", "Redux"],
     sourceCode: null,
     appLink: "https://www.youtube.com/watch?v=cNxkq7k3X90",

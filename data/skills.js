@@ -46,7 +46,7 @@ export const backend = {
         logo: './media/logo/Node.js-logo.png'
     }
 };
-["Jest", "Supertest"]
+
 export const testing = {
     Jest: {
         link: 'https://jestjs.io/',
@@ -58,6 +58,32 @@ export const testing = {
     }
 };
 
-export const hosting = ["Render", "Netlify", "ElephantSQL"];
+export const hosting = ['Render', 'Netlify', 'ElephantSQL'];
 
-export const others = ["Test-Driven Development (TDD)","Object-Oriented Programming (OOP)"];
+['Test-Driven Development (TDD)','Object-Oriented Programming (OOP)', 'AGILE', 'SCRUM', 'Git'];
+export const others = {
+    'Test-Driven Development (TDD)': {
+        description: 'A software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases.',
+        link: 'https://en.wikipedia.org/wiki/Test-driven_development'
+    },
+    'Object-Oriented Programming (OOP)': {
+        description: 'A programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods).',
+        link: 'https://en.wikipedia.org/wiki/Object-oriented_programming'
+    },
+    'AGILE': {
+        description: 'Agile practices (sometimes written "Agile") include requirements discovery and solutions improvement through the collaborative effort of self-organizing and cross-functional teams with their customer(s)/end user(s).',
+        link: 'https://en.wikipedia.org/wiki/Agile_software_development'
+    },
+    'SCRUM': {
+        description: 'An agile project management system where it prescribes for teams to break work into goals to be completed within time-boxed iterations, called sprints.',
+        link: 'https://en.wikipedia.org/wiki/Scrum_(software_development)'
+    },
+    'KANBAN': {
+        description: 'A lean method to manage and improve work across human systems. This approach aims to manage work by balancing demands with available capacity, and by improving the handling of system-level bottlenecks.',
+        link: 'https://en.wikipedia.org/wiki/Kanban_(development)'
+    },
+    'Git': {
+        description: 'A distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.',
+        link: 'https://en.wikipedia.org/wiki/Git'
+    }
+}
