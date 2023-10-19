@@ -7,7 +7,7 @@ export default function Nav() {
                     navBar.map((item, i) => {
                         return (
                             <li key={i}>
-                                <a href={`#${item}`} className="group flex items-center">
+                                <a href={`#${item}`} className="group flex items-center w-fit">
                                     <span className="bg-slate-600 h-px my-auto mr-2 w-8 group-hover:bg-slate-200 
                                     transition-all
                                     group-hover:w-16
