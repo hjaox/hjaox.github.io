@@ -55,12 +55,11 @@ export default function WorkExperience() {
               )
             }
             <h5 className="text-md font-bold mt-1">{info.role}</h5>
-            <p className="text-sm mt-2">
-              <pre className="whitespace-pre-wrap font-poppins text-sm">
-                {info.info}
-              </pre>
-              
-            </p>
+            <pre className="whitespace-pre-wrap font-poppins">
+              <p className="text-sm mt-2">
+                  {info.info}
+              </p>
+            </pre>
           </div>
         </li>
       );
@@ -68,8 +67,8 @@ export default function WorkExperience() {
   }
 
   return (
-    <section>
-      <h3 className="text-xl text-slate-200">Experience</h3>
+    <section id="experience" className="scroll-mt-24">
+      <h3 className="text-xl text-slate-200 font-bold">Experience</h3>
       <ul className="p-3 flex flex-col-reverse gap-2 group">{handleWorkExperieneData(workExperience)}</ul>
       <a href="./media/resume.pdf" target="_blank" className="flex flex-col w-fit group">
         <span className="text-slate-200 group-hover:text-cyan-500 flex gap-1">

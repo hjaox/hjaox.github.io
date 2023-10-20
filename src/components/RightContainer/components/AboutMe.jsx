@@ -1,7 +1,8 @@
 export default function AboutMe() {
     return (
         <section id="about" className="scroll-mt-24">
-            <p className="mb-3">
+            <h3 className="text-xl text-slate-200 font-bold">About</h3>
+            <p className="mb-3 mt-3">
             Graduated as Electrical Engineer at Central Philippine University back in 2013, and have worked in a technical role in different companies in various countries, I am now striving to start a career as a software developer.
             </p>
             <p>

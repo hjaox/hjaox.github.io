@@ -4,7 +4,7 @@ export const projects = {
     tech: ["JavaScript", "PostgreSQL", "Express", "Jest", "Supertest", "node-Postgres"],
     sourceCode: "https://github.com/hjaox/be-nc-news",
     appLink: null,
-    preview: "./media/logo/Axios-logo.png",
+    preview: "./media/projects/ncNewsBackend-preview.png",
     shortVid: "",
   },
   "NC News Frontend Project": {
@@ -12,15 +12,16 @@ export const projects = {
     tech: ["React", "Axios", "CSS", "JavaScript"],
     sourceCode: "https://github.com/hjaox/fe-nc-news",
     appLink: "https://nc-news-hjaox.netlify.app/",
-    preview: "./media/logo/Axios-logo.png",
+    preview: "./media/projects/ncNewsFrontend-preview.png",
     shortVid: "",
   },
   "Swim Wild": {
     info: "A social platform for a trend of wild swimming. The app provides a blend of user-generated and web scrapped content to inform users about nearby swimming spots that features safety consideration. Users can share their swimming experience with others, use statistics about their swimming history and learn more about their favourite spots via our API network and analysis of user content.\n\nThis app was a group project consisting of 6 people during our time with Northcoders",
     tech: ["React-Native", "Node.js", "MongoDB", "Firebase", "Jest", "Redux"],
     sourceCode: null,
-    appLink: "https://www.youtube.com/watch?v=cNxkq7k3X90",
-    preview: "./media/logo/Axios-logo.png",
+    appLink: null,
+    presentation: "https://www.youtube.com/watch?v=cNxkq7k3X90",
+    preview: "./media/projects/swimWild-preview.png",
     shortVid: "",
   },
   "My Personal Portfolio": {
@@ -28,7 +29,7 @@ export const projects = {
     tech: ["React", "Tailwind CSS"],
     sourceCode: "https://github.com/hjaox/hjaox.github.io",
     appLink: "https://hjaox.github.io/",
-    preview: "./media/logo/Axios-logo.png",
+    preview: "./media/projects/personalPortfolio-preview.png",
     shortVid: "",
   },
 };

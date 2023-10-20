@@ -40,7 +40,7 @@ export function Skills() {
                 group/info
                 relative"
         >
-          <a href={info.link}>
+          <a href={info.link} target="_blank">
             <span className="text-sm">{item}</span>
           </a>
           <p
@@ -72,7 +72,7 @@ export function Skills() {
 
   return (
     <section id="skills" className="scroll-mt-24 flex flex-col gap-2">
-      <h3 className="text-xl text-slate-200">Technical Skills</h3>
+      <h3 className="text-xl text-slate-200 font-bold">Technical Skills</h3>
       <div className="flex justify-between">
         <div>
           <section className="flex gap-4 group
