@@ -19,7 +19,7 @@ function App() {
 
   return (
     <> 
-    <div id="flashlight" className="absolute inset-0" style={{background:`radial-gradient(800px circle at var(--x) var(--y), rgba(29, 78, 216, 0.15), transparent 80%)`}}></div>
+    <div id="flashlight" className="fixed inset-0" style={{background:`radial-gradient(800px circle at var(--x) var(--y), rgba(29, 78, 216, 0.15), transparent 80%)`}}></div>
     <main id="main" className="lg:flex lg:justify-between lg:px-10 lg:gap-4  mx-auto max-w-screen-xl relative font-poppins">
       <LeftContainer />
       <RightContainer />
