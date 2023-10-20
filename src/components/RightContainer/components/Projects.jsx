@@ -1,9 +1,15 @@
 import { projects } from "../../../../data/projects";
+import { FiArrowUpRight } from "react-icons/fi";
+import { BsArrowUpRight } from "react-icons/bs";
 
 export default function Projects() {
   function handleTech(data) {
     return data.map((item, i) => {
-      return <li key={i}>{item}</li>;
+      return (
+        <li key={i} className="bg-cyan-500/50 w-fit h-fit p-1 px-4 rounded-2xl text-cyan-300">
+          {item}
+        </li>
+      );
     });
   }
 
@@ -12,7 +18,9 @@ export default function Projects() {
       return (
         <li
           key={i}
-          className="flex gap-3
+          className="grid
+                    grid-cols-3
+                    gap-3
                     duration-500
                     group-hover:opacity-50
                     group-hover:hover:opacity-100
@@ -20,24 +28,65 @@ export default function Projects() {
                     p-3
                     rounded-md"
         >
-          <img src={info.preview} alt="test" />
-          <div className="flex flex-col gap-3">
+          <img src={info.preview} alt={`${item} preview`}
+            className="border-2
+            border-cyan-500/20
+            rounded-md
+            w-full
+            h-28
+            object-fill"/>
+          <div className="flex flex-col gap-3 col-span-2">
             <h4 className="text-lg text-slate-200">{item}</h4>
             <p>
-              <pre className="whitespace-pre-wrap font-poppins">{info.info}</pre>
+              <pre className="whitespace-pre-wrap font-poppins text-sm">
+                {info.info}
+              </pre>
             </p>
 
-            <ul className="text-xs">Technologies used :{handleTech(info.tech)}</ul>
+            <ul className="text-xs flex flex-wrap gap-1">{handleTech(info.tech)}</ul>
             <div className="flex flex-col text-xs">
               {info.sourceCode && (
-                <a className="w-fit hover:text-cyan-500" href={info.sourceCode}>
-                  Source Code
-                </a>
+                <div className="flex content-center group/arrow gap-1">
+                  <a
+                    className="w-fit group-hover:text-cyan-500 duration-700 mt-auto"
+                    href={info.sourceCode}
+                  >
+                    Source Code
+                  </a>
+                  <span
+                    className="
+                    h-fit
+                    w-fit
+                    duration-500
+                    group-hover/arrow:duration-500
+                    group-hover/arrow:bottom-auto
+                    group-hover/arrow:left-auto
+                    group-hover/arrow:translate-x-1
+                    group-hover/arrow:-translate-y-1"
+                  >
+                    <FiArrowUpRight size={14} />
+                  </span>
+                </div>
               )}
               {info.appLink && (
-                <a className="w-fit hover:text-cyan-500 duration-500" href={info.appLink}>
-                  Link to app
-                </a>
+                <div className="flex content-center group/arrow gap-1">
+                  <a className="w-fit group-hover:text-cyan-500 duration-700" href={info.appLink}>
+                    Link to app
+                  </a>
+                  <span
+                    className="
+                    h-fit
+                    w-fit
+                    duration-500
+                    group-hover/arrow:duration-500
+                    group-hover/arrow:bottom-auto
+                    group-hover/arrow:left-auto
+                    group-hover/arrow:translate-x-1
+                    group-hover/arrow:-translate-y-1"
+                  >
+                    <FiArrowUpRight size={14} />
+                  </span>
+                </div>
               )}
             </div>
           </div>
