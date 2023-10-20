@@ -1,6 +1,5 @@
 import { projects } from "../../../../data/projects";
 import { FiArrowUpRight } from "react-icons/fi";
-import { BsArrowUpRight } from "react-icons/bs";
 
 export default function Projects() {
   function handleTech(data) {
@@ -21,12 +20,13 @@ export default function Projects() {
           className="grid
                     grid-cols-3
                     gap-3
-                    duration-500
+                    duration-100
                     group-hover:opacity-50
                     group-hover:hover:opacity-100
                     group-hover:hover:bg-slate-700/50
                     p-3
-                    rounded-md"
+                    rounded-md
+                    group/item"
         >
           <img src={info.preview} alt={`${item} preview`}
             className="border-2
@@ -36,7 +36,7 @@ export default function Projects() {
             h-28
             object-fill"/>
           <div className="flex flex-col gap-3 col-span-2">
-            <h4 className="text-lg text-slate-200">{item}</h4>
+            <h4 className="text-lg text-slate-200 font-bold group-hover/item:text-cyan-500 duration-100">{item}</h4>
             <p>
               <pre className="whitespace-pre-wrap font-poppins text-sm">
                 {info.info}
@@ -48,7 +48,7 @@ export default function Projects() {
               {info.sourceCode && (
                 <div className="flex content-center group/arrow gap-1">
                   <a
-                    className="w-fit group-hover:text-cyan-500 duration-700 mt-auto"
+                    className="w-fit group-hover/item:text-cyan-500 duration-700 mt-auto"
                     href={info.sourceCode}
                   >
                     Source Code
@@ -57,10 +57,10 @@ export default function Projects() {
                     className="
                     h-fit
                     w-fit
-                    duration-500
-                    group-hover/arrow:duration-500
+                    duration-100
                     group-hover/arrow:bottom-auto
                     group-hover/arrow:left-auto
+                    group-hover/item:text-cyan-500
                     group-hover/arrow:translate-x-1
                     group-hover/arrow:-translate-y-1"
                   >
@@ -70,16 +70,16 @@ export default function Projects() {
               )}
               {info.appLink && (
                 <div className="flex content-center group/arrow gap-1">
-                  <a className="w-fit group-hover:text-cyan-500 duration-700" href={info.appLink}>
+                  <a className="w-fit group-hover/item:text-cyan-500 duration-700" href={info.appLink}>
                     Link to app
                   </a>
                   <span
                     className="
                     h-fit
                     w-fit
-                    duration-500
-                    group-hover/arrow:duration-500
+                    duration-100
                     group-hover/arrow:bottom-auto
+                    group-hover/item:text-cyan-500
                     group-hover/arrow:left-auto
                     group-hover/arrow:translate-x-1
                     group-hover/arrow:-translate-y-1"
