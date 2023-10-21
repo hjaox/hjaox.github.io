@@ -127,7 +127,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="scroll-mt-24 flex flex-col gap-2">
-      <h3 className="text-xl text-slate-200 font-bold">Projects</h3>
+      <h3 className="text-xl text-slate-200 font-bold lg:hidden">Projects</h3>
       <ul className="flex flex-col-reverse gap-1 group">{handleList(projects)}</ul>
     </section>
   );

@@ -6,7 +6,7 @@ import WorkExperience from "./components/WorkExperience"
 
 export default function RightContainer() {
     return (
-        <section className="lg:w-1/2 py-24 flex flex-col gap-24">
+        <section id="right" className="lg:w-3/5 py-24 flex flex-col gap-24 scroll-smooth">
             <AboutMe/>
             <Skills/>
             <Projects/>

@@ -3,7 +3,7 @@ import { socials } from "../../../../data/socials";
 export default function Socials() {
     return (
         <section>
-            <div  className="flex gap-1">
+            <div  className="flex gap-1 mt-8">
                 {
                     Object.entries(socials).map(([social, info], i) => {
                         return (

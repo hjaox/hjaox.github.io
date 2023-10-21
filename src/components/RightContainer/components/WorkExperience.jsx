@@ -68,7 +68,7 @@ export default function WorkExperience() {
 
   return (
     <section id="experience" className="scroll-mt-24">
-      <h3 className="text-xl text-slate-200 font-bold">Experience</h3>
+      <h3 className="text-xl text-slate-200 font-bold lg:hidden">Experience</h3>
       <ul className="p-3 flex flex-col-reverse gap-2 group">{handleWorkExperieneData(workExperience)}</ul>
       <a href="./media/resume.pdf" target="_blank" className="flex flex-col w-fit group">
         <span className="text-slate-200 group-hover:text-cyan-500 flex gap-1">
