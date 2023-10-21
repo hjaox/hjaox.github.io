@@ -378,4 +378,14 @@ ol.experience-info {
   color: teal;
 }
 
+.notice {
+  opacity: 0.5;
+}
+
+.notice a {
+  text-decoration: none;
+  opacity: 1;
+  color: cyan;
+}
+
 /* -------------------------------to remove after-------------------------------- */
