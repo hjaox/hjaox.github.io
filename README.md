@@ -1,3 +1,7 @@
-Hi! Welcome to my portfolio repository.
+# Welcome to my portfolio repository.
 
-Currently my portfolio is made with vanilla JS, HTML and CSS. I am currently making a react version. You can look at the react branch of this repository to see its progress. 
+## v1
+The first version of my portfolio. Made with vanilla HTML, CSS and Javascript. You can view the source code at the vanilla branch of this repository check out the site [here](https://hjaox.github.io/)
+
+## v1.1
+The latest version of my portfolio. Made with React and JS. You can view the source code at the react branch of this repository or check out the site [here](https://hectorobanana.netlify.app/)
