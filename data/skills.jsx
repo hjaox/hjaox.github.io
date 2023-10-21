@@ -1,6 +1,7 @@
 import { RiJavascriptLine, RiHtml5Line, RiCss3Fill, RiReactjsFill } from "react-icons/ri";
 import { SiAxios, SiPostgresql, SiExpress, SiJest } from "react-icons/si";
 import { IoLogoNpm, IoLogoNodejs } from "react-icons/io";
+import { BiLogoTailwindCss } from "react-icons/bi";
 
 export const languages = {
   JavaScript: {
@@ -29,6 +30,10 @@ export const frontend = {
   Axios: {
     link: "https://www.npmjs.com/package//axios",
     logo: <SiAxios size={20} style={{ alignSelf: "center" }} />,
+  },
+  "Tailwind CSS": {
+    link: "https://tailwindcss.com/",
+    logo: <BiLogoTailwindCss size={20} style={{ alignSelf: "center" }} />,
   },
 };
 
