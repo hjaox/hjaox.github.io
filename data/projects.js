@@ -15,6 +15,14 @@ export const projects = {
     preview: "./media/projects/ncNewsFrontend-preview.png",
     shortVid: "",
   },
+  "My Personal Portfolio v1": {
+    info: "Earlier version of my portfolio made with vanilla HTML, CSS and JavaScript.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/hjaox/hjaox.github.io/tree/vanilla",
+    appLink: "https://hjaox.github.io/",
+    preview: "./media/projects/personalPortfoliov1-preview.png",
+    shortVid: "",
+  },
   "Swim Wild": {
     info: "A social platform for a trend of wild swimming. The app provides a blend of user-generated and web scrapped content to inform users about nearby swimming spots that features safety consideration. Users can share their swimming experience with others, use statistics about their swimming history and learn more about their favourite spots via our API network and analysis of user content.\n\nThis app was a group project consisting of 6 people during our time with Northcoders",
     tech: ["React-Native", "Node.js", "MongoDB", "Firebase", "Jest", "Redux"],
@@ -24,12 +32,12 @@ export const projects = {
     preview: "./media/projects/swimWild-preview.png",
     shortVid: "",
   },
-  "My Personal Portfolio": {
-    info: "I build this portfolio to house all my projects and also some more information about myself. Made with React and Tailwind CSS.",
+  "My Personal Portfolio v1.1": {
+    info: "I built this portfolio to house all my projects. Made with React and Tailwind CSS.",
     tech: ["React", "Tailwind CSS"],
-    sourceCode: "https://github.com/hjaox/hjaox.github.io",
-    appLink: "https://hjaox.github.io/",
-    preview: "./media/projects/personalPortfolio-preview.png",
+    sourceCode: "https://github.com/hjaox/hjaox.github.io/tree/react",
+    appLink: "https://hectorobanana.netlify.app/",
+    preview: "./media/projects/personalPortfoliov1.1-preview.png",
     shortVid: "",
   },
 };

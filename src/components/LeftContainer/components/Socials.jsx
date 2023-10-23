@@ -15,7 +15,7 @@ export default function Socials() {
                 }
             </div>
             <span className="text-xs hover:text-cyan-500 duration-500">
-                hectorjana.o@gmail.com/07306 891589
+                <a href="mailto:hectorjana.o@gmail.com">hectorjana.o@gmail.com/07306 891589</a>
             </span>
         </section>
     )
